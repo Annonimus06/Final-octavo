@@ -1,0 +1,248 @@
+body{
+	background-image: url("fondof.jpg");
+	background-size: cover;
+}
+.titulo{
+	position: absolute;
+	top: 30px;
+	left: 38%;
+ 	font-family: hola;
+ 	font-size: 48px;
+ 	animation-name: animacion;
+ 	animation-duration: 4s;
+ 	animation-iteration-count: infinite;
+}
+@keyframes animacion{
+	0% {color:#37DC62;}
+    25% {color:#006451;}
+	50% {color:#17C69F;}
+	100% {color:#37DC62;}
+}
+.boton1{
+	position: absolute;
+	top: 150px;
+	left: 170px;
+	width:100px;
+	height: 100px;
+	background-image: linear-gradient(-90deg,rgb(154,12,252),rgb(12,230,252),rgb(1,255,89));
+	border-radius: 50px;
+	box-shadow: 5px 5px rgb(0,0,0);
+	opacity: 0.9;
+}
+.boton1:active .op1{
+	position: absolute;
+	top: -10px;
+	left: 250px;
+	height: 300px;
+	width: 450px;
+	display: block;
+	background-color: #FFFFFF;
+	border: solid 5px black;
+}
+.text1{
+	position: absolute;
+	left: 185px;
+	font-family: buenas;
+	font-size: 28px; 
+	color: #000000;
+}
+.text2{
+	position: absolute;
+	top: 170px;
+	left: 20px;
+	font-family: buenas;
+	font-size: 28px; 
+	color: #000000;
+}
+.ima1{
+	position: absolute;
+	top: 15px;
+	left: 20px;
+	background-repeat: no-repeat;
+	background-image: url("11.jpg");
+	background-size: 150px 150px;
+	border-radius: 80px;
+	border: solid 5px black;
+	display: block;
+}
+
+.op1{
+	display: none;
+}
+.boton2{
+	position: absolute;
+	top: 425px;
+	left: 170px;
+	width:100px;
+	height: 100px;
+	background-image: linear-gradient(-90deg,rgb(154,12,252),rgb(12,230,252),rgb(1,255,89));
+	border-radius: 100px;
+	box-shadow: 5px 5px rgb(0,0,0);
+	opacity: 0.9;
+}
+.boton2:active .op2{
+	position: absolute;
+	top: -150px;
+	left: 250px;
+	height: 300px;
+	width: 450px;
+	display: block;
+	font-family: buenas;
+	font-size: 28px; 
+	color: #000000;
+	background-color: #FFFFFF;
+	opacity: 1;
+	border: solid 5px black;
+
+}
+.text3{
+	position: absolute;
+	left: 185px;
+	font-family: buenas;
+	font-size: 28px; 
+	color: #000000;
+}
+.text4{
+	position: absolute;
+	top: 170px;
+	left: 20px;
+	font-family: buenas;
+	font-size: 28px; 
+	color: #000000;
+}
+.ima2{
+	position: absolute;
+	top: 15px;
+	left: 20px;
+	background-repeat: no-repeat;
+	background-image: url("12.jpg");
+	background-size: 150px 150px;
+	border-radius: 80px;
+	border: solid 5px black;
+	display: block;
+}
+
+.op2{
+	display: none;
+}
+.boton3{
+	position: absolute;
+	top: 150px;
+	right: 170px;
+	width:100px;
+	height: 100px;
+	background-image: linear-gradient(-90deg,rgb(154,12,252),rgb(12,230,252),rgb(1,255,89));
+	border-radius: 50px;
+	box-shadow: 5px 5px rgb(0,0,0);
+	opacity: 0.9;
+}
+.boton3:active .op3{
+	position: absolute;
+	top: -10px;
+	right: 250px;
+	height: 300px;
+	width: 450px;
+	display: block;
+	font-family: buenas;
+	font-size: 28px; 
+	color: #000000;
+	background-color: #FFFFFF;
+	opacity: 1;
+	border: solid 5px black;
+}
+.text5{
+	position: absolute;
+	left: 185px;
+	font-family: buenas;
+	font-size: 28px; 
+	color: #000000;
+}
+.text6{
+	position: absolute;
+	top: 170px;
+	left: 20px;
+	font-family: buenas;
+	font-size: 28px; 
+	color: #000000;
+}
+
+.ima3{
+	position: absolute;
+	top: 15px;
+	left: 20px;
+	background-repeat: no-repeat;
+	background-image: url("13.jpg");
+	background-size: 150px 150px;
+	border-radius: 80px;
+	border: solid 5px black;
+	display: block;
+}
+.op3{
+	display: none;
+}
+.boton4{
+	position: absolute;
+	top: 425px;
+	right: 170px;
+	width:100px;
+	height: 100px;
+	background-image: linear-gradient(-90deg,rgb(154,12,252),rgb(12,230,252),rgb(1,255,89));
+	border-radius: 50px;
+	box-shadow: 5px 5px rgb(0,0,0);
+	opacity: 0.9;
+}
+.boton4:active .op4{
+	position: absolute;
+	top: -150px;
+	right: 250px;
+	height: 300px;
+	width: 450px;
+	display: block;
+	font-family: buenas;
+	font-size: 28px; 
+	color: #000000;
+	background-color: #FFFFFF;
+	opacity: 1;
+	border: solid 5px black;
+
+}
+.text7{
+	position: absolute;
+	left: 185px;
+	font-family: buenas;
+	font-size: 28px; 
+	color: #000000;
+}
+.text8{
+	position: absolute;
+	top: 170px;
+	left: 20px;
+	font-family: buenas;
+	font-size: 28px; 
+	color: #000000;
+}
+
+.ima4{
+	position: absolute;
+	top: 15px;
+	left: 20px;
+	background-repeat: no-repeat;
+	background-image: url("14.jpg");
+	background-size: 150px 150px;
+	border-radius: 100px;
+	display: block;
+}
+.op4{
+	display: none;
+}
+
+
+@font-face{
+	font-family: hola;
+	src:url("soloist1.ttf");
+}
+@font-face{
+	font-family: buenas;
+	src:url("letra2.ttf");
+}
+
